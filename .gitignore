@@ -1,0 +1,59 @@
+# ============================
+# Node.js
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================
+# Build
+# ============================
+dist/
+build/
+.out/
+.next/
+.vercel/
+.tmp/
+
+# ============================
+# Environment variables
+# ============================
+.env
+.env.*
+!.env.example
+
+# ============================
+# System files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+*.log.*
+log.txt
+
+# ============================
+# Editor folders
+# ============================
+.vscode/
+.idea/
+
+# ============================
+# Coverage
+# ============================
+coverage/
+.nyc_output/
+
+# ============================
+# Misc
+# ============================
+*.tsbuildinfo
